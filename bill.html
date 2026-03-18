@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bill Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Food Court Bill Generator</h1>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="menu.html">Menu</a>
+<a href="bill.html">Bill</a>
+<a href="reserve.html">Reserve</a>
+</nav>
+
+<section class="bill">
+
+<h2>Select Quantity</h2>
+
+Burger (₹120)
+<input type="number" id="burger" min="0" value="0">
+
+Pizza (₹250)
+<input type="number" id="pizza" min="0" value="0">
+
+Sandwich (₹100)
+<input type="number" id="sandwich" min="0" value="0">
+
+Noodles (₹180)
+<input type="number" id="noodles" min="0" value="0">
+
+<br><br>
+
+<button onclick="generateBill()">Generate Bill</button>
+
+<div id="result"></div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>

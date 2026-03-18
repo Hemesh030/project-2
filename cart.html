@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cart</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="displayCart()">
+
+<header>
+<h1>City Food Court</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="menu.html">Menu</a>
+<a href="cart.html">Cart</a>
+</nav>
+</header>
+
+<h2 class="center">Your Cart</h2>
+
+<ul id="cartList"></ul>
+
+<h3 class="center">Total: ₹ <span id="total"></span></h3>
+
+<div class="center">
+<button onclick="placeOrder()">Place Order</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
